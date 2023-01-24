@@ -9,9 +9,9 @@ import java.util.*;
 	*/
 public class Ejercicio1 {
 	public static void main(String[] args) {
-		int numero; //Numero que introduce el usuario.
-		int numeroPar = 0; //Cantidad de numeros pares.
-		int sumaPares = 0; //Suma de todos los digitos pares.
+		long numero; //Numero que introduce el usuario.
+		long numeroPar = 0; //Cantidad de numeros pares.
+		long sumaPares = 0; //Suma de todos los digitos pares.
 		Scanner sc = new Scanner(System.in); //Declaración de scanner.
 		System.out.print("Introduzca un número entero positivo: "); //El programa pide al usuario el numero para introducir.
 		numero = sc.nextInt(); //El usuario introduce el numero entero.
